@@ -32,16 +32,6 @@ The aim is to train two deep learning models:
 4. **Training** — YOLOv8 detection and YOLOv8-segmentation models.
 5. **Evaluation** — Qualitative review of outputs.
 
----
-
-## 📊 Results
-### Detection Example
-![Detection Example](outputs/detection_example1.jpg)
-
-### Segmentation Example
-![Segmentation Example](outputs/segmentation_example1.jpg)
-
----
 
 ## 📈 Insights
 - YOLOv8 detection performed strongly even on small dataset.
