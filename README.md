@@ -1,19 +1,19 @@
 # GIKI Campus Building Detection and Segmentation using YOLOv8
 
-## 📌 Project Overview
+##  Project Overview
 This project detects and segments GIKI campus buildings in real time using a **custom dataset** and the **YOLOv8** architecture.  
 The system can identify 14 different buildings and overlay segmentation masks for visual clarity.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 The aim is to train two deep learning models:
 1. **YOLOv8 Detection** — Predict bounding boxes around buildings with their names.
 2. **YOLOv8 Segmentation** — Predict bounding boxes + masks for each detected building.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - **Source:** Recorded videos from GIKI campus.
 - **Images:** 116 total (70% train, 20% val, 10% test).
 - **Classes:**  
@@ -25,7 +25,7 @@ The aim is to train two deep learning models:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 1. **Data Collection** — Campus video footage.
 2. **Annotation** — Bounding boxes in Roboflow.
 3. **Segmentation Conversion** — Bounding boxes → polygon masks.
@@ -33,14 +33,14 @@ The aim is to train two deep learning models:
 5. **Evaluation** — Qualitative review of outputs.
 
 
-## 📈 Insights
+##  Insights
 - YOLOv8 detection performed strongly even on small dataset.
 - Segmentation masks are rectangular (box-based), but still useful for multi-object scenes.
 - Real polygon masks would further improve performance.
 
 ---
 
-## 📁 Files in Repository
+##  Files in Repository
 - `Task2_GIKI_Building_Detection_Segmentation.ipynb` — Full training & inference code.
 - `Report_Task2.pdf` — Detailed project report with visuals.
 - `best_detection.pt` — Trained YOLOv8 detection model.
@@ -49,7 +49,7 @@ The aim is to train two deep learning models:
 
 ---
 
-## 📽 Example Videos
+##  Example Videos
 - Detection: [View](outputs/detection_video.avi)
 - Segmentation: [View](outputs/segmentation_video.avi)
 
